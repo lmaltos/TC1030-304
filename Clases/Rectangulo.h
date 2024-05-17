@@ -10,6 +10,8 @@ class Rectangulo {
     double calcularArea();
     void setLargo(double);
     void setAncho(double);
+    double getLargo();
+    double getAncho();
     std::string str();
 };
 

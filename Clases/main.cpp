@@ -11,8 +11,8 @@ int main() {
     area = rect.calcularArea();
     cout << "Area = " << area << endl;
     cout << rect.str() << endl;
-    rect1.setLargo(5);
-    rect1.setAncho(8);
+    rect1.setLargo(5);  
+    rect1.setAncho(-8);
     area = rect1.calcularArea();
     cout << "Area = " << area << endl;
     cout << rect1.str() << endl;

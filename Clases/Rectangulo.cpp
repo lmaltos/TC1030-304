@@ -13,7 +13,20 @@ void Rectangulo::setLargo(double _largo){
 }
 
 void Rectangulo::setAncho(double _ancho){
-    ancho = _ancho;
+    if (_ancho > 0) {
+        ancho = _ancho;
+    }
+    else {
+        ancho = 1;
+    }
+}
+
+double Rectangulo::getLargo() {
+    return largo;
+}
+
+double Rectangulo::getAncho(){
+    return ancho;
 }
 
 string Rectangulo::str() {

@@ -2,6 +2,15 @@
 
 using namespace std;
 
+ Rectangulo::Rectangulo() {
+
+}
+
+Rectangulo::Rectangulo(double _largo, double _ancho){
+    largo = _largo;
+    setAncho(_ancho);
+}
+
 double Rectangulo::calcularArea(){
     return largo * ancho;
 }

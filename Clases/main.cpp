@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    Rectangulo rect,rect1;
+    Rectangulo rect(10,20),rect1{5,8};
     double area;
     rect.setLargo(10);
     rect.setAncho(20);

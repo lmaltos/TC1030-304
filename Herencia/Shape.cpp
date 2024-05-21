@@ -25,6 +25,6 @@ int Shape::getValY() {
     return y;
 }
 
-std::string Shape::draw() {
-    return "Soy una figura";
-}
+//std::string Shape::draw() {
+//    return "Soy una figura";
+//}

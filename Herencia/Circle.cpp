@@ -15,3 +15,7 @@ Circle::Circle(int _x, int _y, int _r)
 Circle::~Circle() {
     std::cout << "Desstructor ~Circle(" << getValX() << "," << getValY() << "," << r << ")" << std::endl;
 }
+
+std::string Circle::draw() {
+    std::cout << "Soy un circulo" << std::endl;
+}

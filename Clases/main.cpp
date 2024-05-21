@@ -4,8 +4,12 @@
 using namespace std;
 
 int main() {
-    Rectangulo rect(10,20),rect1{5,8};
+    Rectangulo rect,rect1(5,8);
     double area;
+    cout << "antes de asignar valores" << endl;
+    area = rect.calcularArea();
+    cout << "Area = " << area << endl;
+    cout << rect.str() << endl;
     rect.setLargo(10);
     rect.setAncho(20);
     area = rect.calcularArea();

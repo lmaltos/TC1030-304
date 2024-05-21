@@ -9,6 +9,7 @@ class Rectangulo {
   public:
     Rectangulo();
     Rectangulo(double,double);
+    ~Rectangulo();
     double calcularArea();
     void setLargo(double);
     void setAncho(double);

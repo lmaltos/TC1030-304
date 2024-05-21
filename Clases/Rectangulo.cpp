@@ -1,14 +1,18 @@
 #include "Rectangulo.h"
-
+#include <iostream>
 using namespace std;
 
  Rectangulo::Rectangulo() {
-
+    largo = ancho = 1;
 }
 
 Rectangulo::Rectangulo(double _largo, double _ancho){
     largo = _largo;
     setAncho(_ancho);
+}
+
+Rectangulo::~Rectangulo() {
+    cout << "Se destruyo un objeto rectangulo (" << largo << "," << ancho << ")" << endl;
 }
 
 double Rectangulo::calcularArea(){

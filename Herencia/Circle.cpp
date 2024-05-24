@@ -17,5 +17,5 @@ Circle::~Circle() {
 }
 
 std::string Circle::draw() {
-    std::cout << "Soy un circulo" << std::endl;
+    return "Soy un circulo";
 }

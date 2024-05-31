@@ -26,5 +26,5 @@ double Sobre::calcularCosto() {
         return cargoAdicional + Envio::calcularCosto();
     }
     return Envio::calcularCosto();*/
-    return Envio::calcularCosto() + (largo > 30 || ancho > 25) ? cargoAdicional : 0;
+    return Envio::calcularCosto() + ((largo > 30 || ancho > 25) ? cargoAdicional : 0);
 }

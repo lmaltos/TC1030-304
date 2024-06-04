@@ -15,4 +15,10 @@ class Complex {
     Complex operator*(Complex const &);
     friend Complex operator-(Complex const &, Complex const &);
     friend std::ostream& operator<<(std::ostream &,Complex const &);
+    // + - * / ^ & | ~ ! = < > 
+    // += -= *= /= %= ^= &= |= << >>
+    // <<= >>= == !=
+    // <= >= && || ++ --
+    // () []
+    double operator[](int) const;
 };

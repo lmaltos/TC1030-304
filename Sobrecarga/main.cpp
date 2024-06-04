@@ -13,4 +13,5 @@ int main() {
     cout << "a += b =>" << a << endl;
     a = a - c;
     cout << "a = a - c =>" << a << endl;
+    double d = a[14];
 }

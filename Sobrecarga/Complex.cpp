@@ -56,3 +56,10 @@ std::ostream& operator<<(std::ostream &os,Complex const &x) {
     os << x.real << " + i*" << x.imag;
     return os;
 }
+
+double Complex::operator[](int i)  const {
+    if (i % 2) // i % 2 = 1 
+        return imag;
+    else
+        return real;
+}
